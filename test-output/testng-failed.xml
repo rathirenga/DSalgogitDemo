@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.DataStructure">
+        <methods>
+          <include name="InitializeDriver"/>
+          <include name="ds"/>
+        </methods>
+      </class> <!-- testCases.DataStructure -->
+      <class name="testCases.loginTestCase">
+        <methods>
+          <include name="Login"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- testCases.loginTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
