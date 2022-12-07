@@ -35,7 +35,7 @@ public class DataStructurePO {
 	@FindBy(linkText = "Try here>>>")
 	WebElement TH;
 
-	public void Try() {
+	public void clickTry() {
 		TH.click();
 	}
 

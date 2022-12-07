@@ -23,7 +23,7 @@ public class DataStructure extends baseClass {
 		DataStructurePO DSP= new DataStructurePO(driver);
 		DSP.GetStart();
 		DSP.Time();
-		DSP.Try();
+		DSP.clickTry();
 		Thread.sleep(1000);
 		DSP.text();
 		Thread.sleep(2000);
