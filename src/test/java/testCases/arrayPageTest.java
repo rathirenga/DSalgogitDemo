@@ -2,11 +2,11 @@ package testCases;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
+import base.baseClass;
+import pageObjects.arrayPages;
 
-import ds_algo_ProjectPages.BaseClass;
-import ds_algo_ProjectPages.arrayPages;
 
-public class arrayPageTest extends BaseClass
+public class arrayPageTest extends baseClass
 {
 	@Test
 	public void arrayBtn() throws InterruptedException 
