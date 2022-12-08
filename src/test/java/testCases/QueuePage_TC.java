@@ -6,17 +6,18 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import PageObjects.QueuePage;
+import base.baseClass;
+import pageObjects.QueuePage;
 
 
-public class QueuePage_TC extends BaseClass {
+public class QueuePage_TC extends baseClass {
 @Test	
 	public void Queuepagetest() throws InterruptedException
 	
 	{
 		QueuePage QPT=new QueuePage(driver);
-		SigninPage_TC sgn = new SigninPage_TC();
-	    sgn.signinTest();
+		//SigninPage_TC sgn = new SigninPage_TC();
+	    //sgn.signinTest();
 	    QPT.getstarted();
 	    QPT.QueuePyt();
 	    

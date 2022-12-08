@@ -2,11 +2,11 @@ package testCases;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
+import base.baseClass;
+import pageObjects.linkedListPage;
 
-import ds_algo_ProjectPages.BaseClass;
-import ds_algo_ProjectPages.linkedListPage;
 
-public class linkedListPageTest extends BaseClass
+public class linkedListPageTest extends baseClass
 {
 	@Test
 	public void LList() throws InterruptedException
