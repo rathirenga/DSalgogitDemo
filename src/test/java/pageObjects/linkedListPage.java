@@ -37,7 +37,7 @@ public class linkedListPage
 		linkList.click();
 	}
 	
-	public void tryEditor()
+	public void tryEditorClick()
 	{
 		tryLink.click();
 	}
@@ -67,7 +67,7 @@ public class linkedListPage
 			Thread.sleep(200);
 			System.out.println(linkListElts.get(i).getText());
 			linkListElts.get(i).click();
-			tryEditor();
+			tryEditorClick();
 			typeCode();
 			runClick();
 			driver.get("https://dsportalapp.herokuapp.com/linked-list/");
